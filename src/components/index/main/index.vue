@@ -37,23 +37,23 @@
     </el-col>
     <el-col :span="4">
       <div class="main-right">
-        <el-row :span="24" style="height: 48px">
+        <el-row :span="24" style="height: 47px">
           <el-col :span="16" style="text-align: left;padding-left: 3px;padding-top: 5px">天猫活动</el-col>
           <el-col :span="8" style="text-align: right;padding-right: 3px;padding-top: 5px">更多></el-col>
         </el-row>
-        <el-row :span="24" style="height: 30px">
+        <el-row :span="24" style="height: 35px">
           <el-col :span="24">[特惠]备战开学季 全民半价购数码</el-col>
         </el-row>
-        <el-row :span="24" style="height: 30px">
+        <el-row :span="24" style="height: 35px">
           <el-col :span="24">[公告]备战开学季 全民半价购数码</el-col>
         </el-row>
-        <el-row :span="24" style="height: 30px">
+        <el-row :span="24" style="height: 35px">
           <el-col :span="24">[公告]备战开学季 全民半价购数码</el-col>
         </el-row>
-        <el-row :span="24" style="height: 30px">
+        <el-row :span="24" style="height: 35px">
           <el-col :span="24">[公告]备战开学季 全民半价购数码</el-col>
         </el-row>
-        <el-row :span="24" style="height: 30px">
+        <el-row :span="24" style="height: 35px">
           <el-col :span="24">[公告]备战开学季 全民半价购数码</el-col>
         </el-row>
         <el-row :span="24">
@@ -120,7 +120,7 @@ export default {
     background: #cccccc;
   }
   .main-right{
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .el-menu-item {

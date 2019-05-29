@@ -18,8 +18,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin: 0 auto;
-  padding-left: 300px;
-  padding-right: 300px;
+  width: 1200px;
 }
   body {
     margin: 0 auto;

@@ -1,10 +1,10 @@
 <template>
   <div class="header-style">
       <el-row :span="24" class="nav">
-        <el-col :span="2">嗨，欢迎来到天猫</el-col>
-        <el-col :span="1">请登陆</el-col>
-        <el-col :span="1">免费注册</el-col>
-        <el-col :span="10"><div class="temp"></div></el-col>
+        <el-col :span="3" class="nav-left" style="padding-left: 5px">嗨，欢迎来到天猫</el-col>
+        <el-col :span="1" class="nav-left">请登陆</el-col>
+        <el-col :span="2" class="nav-left">免费注册</el-col>
+        <el-col :span="8"><div class="temp"></div></el-col>
         <el-col :span="2" class="has-icon"><i class="el-icon-user-solid">我的</i></el-col>
         <el-col :span="2" class="has-icon"><i class="el-icon-shopping-cart-2">购物车</i></el-col>
         <el-col :span="2" class="has-icon"><i class="el-icon-star-on">收藏夹</i></el-col>
@@ -63,5 +63,8 @@ export default {
     border-radius: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+  .nav-left{
+    text-align: left;
   }
 </style>
